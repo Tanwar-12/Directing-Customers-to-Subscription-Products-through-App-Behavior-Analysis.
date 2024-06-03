@@ -1,6 +1,9 @@
-# *MACHINE LEARNING PROJECT*
-# *Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis.*
+# 𝙼𝙰𝙲𝙷𝙸𝙽𝙴 𝙻𝙴𝙰𝚁𝙽𝙸𝙽𝙶 𝙿𝚁𝙾𝙹𝙴𝙲𝚃
+
+## 𝐓𝐈𝐓𝐋𝐄 : 𝐃𝐢𝐫𝐞𝐜𝐭𝐢𝐧𝐠-𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬-𝐭𝐨-𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧-𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬-𝐭𝐡𝐫𝐨𝐮𝐠𝐡-𝐀𝐩𝐩-𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫-𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬.
+
 #### **OVERVIEW**:
+
 * In today's market many companies have a mobile presence. Often, these companies provide free products/services in their mobile apps in an attempt to transition their customers to a paid membership. Some examples of paid products, which originate from free ones, are YouTube Red, Pandora Premium, Audible Subscription, YouTube Premium, and You Need a Budget. Since marketing efforts are never free, these companies need to know exactly who to target with offers and promotions.
 
 * Market: The target audience is customers who use a company's free products. In this case study, this refers to users who installed (and used) the companies free mobile app.
