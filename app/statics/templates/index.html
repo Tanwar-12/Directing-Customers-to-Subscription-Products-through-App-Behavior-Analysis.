@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-color: hsl(208, 71%, 58%); /* Light blue background color */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <img src="{('app/statics/templates/BCP.jpg') }" class="banner" alt="">
+    </div>
+
+    <div class="login">
+        <center>
+            <form action="{{ url_for('main.predict') }}" method="post">
+                <h1>Enter User Data for Analysis</h1>
+                <input type="number" step="any" name="num_sessions" placeholder="Number of Sessions" required>
+                <input type="number" step="any" name="avg_session_duration" placeholder="Average Session Duration (minutes)" required>
+                <input type="number" step="any" name="num_clicks" placeholder="Number of Clicks" required>
+                <input type="number" step="any" name="pages_visited" placeholder="Pages Visited" required>
+                <input type="number" step="any" name="time_on_page" placeholder="Time Spent on Page (minutes)" required>
+                <input type="number" step="any" name="previous_subscriptions" placeholder="Previous Subscriptions" required>
+                <br><br>
+                <div class="button_cont" align="center">
+                    <button type="submit" class="button_css"><strong>Analyze</strong></button>
+                </div>
+            </form>
+        </center>
+
+       
+        <div>
+            <center>
+                <h1></h1>
+            </center>
+        </div>
+        
+    </div>
+</body>
+</html>
