@@ -2,7 +2,7 @@
 
 ## 𝐓𝐈𝐓𝐋𝐄 : 𝐃𝐢𝐫𝐞𝐜𝐭𝐢𝐧𝐠-𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬-𝐭𝐨-𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧-𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬-𝐭𝐡𝐫𝐨𝐮𝐠𝐡-𝐀𝐩𝐩-𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫-𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬.
 
-#### **OVERVIEW**:
+#### 𝐎𝐕𝐄𝐑𝐕𝐈𝐄𝐖:
 
 * In today's market many companies have a mobile presence. Often, these companies provide free products/services in their mobile apps in an attempt to transition their customers to a paid membership. Some examples of paid products, which originate from free ones, are YouTube Red, Pandora Premium, Audible Subscription, YouTube Premium, and You Need a Budget. Since marketing efforts are never free, these companies need to know exactly who to target with offers and promotions.
 
@@ -12,22 +12,22 @@
 
 ![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/b83f0c77-8887-451c-8059-fae676dc4839)
 
-## GOAL OF THE PROJECT:
+## 𝐆𝐎𝐀𝐋 𝐎𝐅 𝐓𝐇𝐄 𝐏𝐑𝐎𝐉𝐄𝐂𝐓:
 **The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to convert them to paid users.**
 
-### BUSINESS CASE:
+### 𝐁𝐔𝐒𝐈𝐍𝐄𝐒𝐒 𝐂𝐀𝐒𝐄:
 * In this Case Study we will be working for a fintech company that wants to provide its customers with a paid mobile app subscription that will allow them to track all of their finances in one place. To attract customers, the company releases a free version of their app with some of the main features unlocked.
 
 * The company has tasked you to identify which users will mostly likely NOT enroll in paid products, so that additional offers can be given to them. Because of the costs of these offers, the company does not want to offer them to everybody, especially customers who were going to enroll anyways.
 
- ####  ABOUT DATA
+ ####  𝐀𝐁𝐎𝐔𝐓 𝐃𝐀𝐓𝐀:
 * By working for the company. We have access to each customer's app behavior data. This data allows us to see the date & time of app installation, as well as the features the users engaged with within the app. App behavior is characterized as the list of app screens the user looked at, and whether the user played the financial mini-games available.
 
 * The app usage data is only from the user's first day in the app. This limitation exists because users can enjoy a 24-hour free trial of the premium features, and the company wants to target them with new offers shortly after the trail is over.
 
 * The Data for this project is from manufacturing fields based on trends found in real world case studies. The fields describe what companies usually track from their users.
 
-### Data Description
+### 𝐃𝐚𝐭𝐚 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧:
 
 * User : this is Unique id of each perticuter user of app
 
@@ -53,13 +53,14 @@
 
 * enrolled_date : date & time of enrollment to premium product if they enrolled to premium
 
-**IMPORTING THE LIBRARIES**
+𝐈𝐌𝐏𝐎𝐑𝐓𝐈𝐍𝐆 𝐓𝐇𝐄 𝐋𝐈𝐁𝐑𝐀𝐑𝐈𝐄𝐒
 * Numpy,Pandas,matplotlib.seaborn...
 
-  **LOAD THE DATA**
+### 𝐋𝐎𝐀𝐃 𝐓𝐇𝐄 𝐃𝐀𝐓𝐀
 
-  **BASIC CHECKS**
-  ### EXPLORATORY DATA ANALYSIS
+  𝐁𝐀𝐒𝐈𝐂 𝐂𝐇𝐄𝐂𝐊𝐒
+  
+  ### 𝐄𝐗𝐏𝐋𝐎𝐑𝐀𝐓𝐎𝐑𝐘 𝐃𝐀𝐓𝐀 𝐀𝐍𝐀𝐋𝐘𝐒𝐈𝐒
   **Histogam of Numerical columns**
   ![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/19498393-436a-4db6-b115-4d1b0f779b89)
 
@@ -75,16 +76,18 @@
 
 _**Here we conclude that most of users (more that 20000 out-off total 50000 users) do not used the 1st 24 hour premium free trial & infact they direcly jumped to the premium at the time of they 1st open the app**_
 
-### FEATURE ENGINEERING
+### 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐄𝐍𝐆𝐈𝐍𝐄𝐄𝐑𝐈𝐍𝐆:
 * drop( the columns='first_open','enrolled_date','Date_Delta_in_Hour'
-  ## MODEL BUILDING
-### LOGISTIC REGRESSION
-#### MODEL TRAINING
-##### MODEL EVALUATION & PREDICTION
-### DATA PREPROCESSING & FEATURE SCALING
+  
+
+### 𝐃𝐀𝐓𝐀 𝐏𝐑𝐄𝐏𝐑𝐎𝐂𝐄𝐒𝐒𝐈𝐍𝐆 & 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐒𝐂𝐀𝐋𝐈𝐍𝐆
 ![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/025db4e1-7d20-4b94-80d0-697b4485c1fa)
 
 ![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/13521ae1-042a-4741-9c5d-5e81fb19a4e9)
+## 𝐌𝐎𝐃𝐄𝐋 𝐁𝐔𝐈𝐋𝐃𝐈𝐍𝐆
+𝐋𝐎𝐆𝐈𝐒𝐓𝐈𝐂 𝐑𝐄𝐆𝐑𝐄𝐒𝐒𝐈𝐎𝐍
+#### 𝐌𝐎𝐃𝐄𝐋 𝐓𝐑𝐀𝐈𝐍𝐈𝐍𝐆
+#####  𝐌𝐎𝐃𝐄𝐋 𝐄𝐕𝐀𝐋𝐔𝐀𝐓𝐈𝐎𝐍 & 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍
 
 * Model Accuracy = sum of diagonal value of cm/sum of all values of cm(confusion matrix)
 
