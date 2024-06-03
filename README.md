@@ -52,3 +52,53 @@
 
 **IMPORTING THE LIBRARIES**
 * Numpy,Pandas,matplotlib.seaborn...
+
+  **LOAD THE DATA**
+
+  **BASIC CHECKS**
+  ### EXPLORATORY DATA ANALYSIS
+  **Histogam of Numerical columns**
+  ![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/19498393-436a-4db6-b115-4d1b0f779b89)
+
+**Correlation between independent features & response variable**
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/6cf91fe6-501b-4cd9-a548-d1168dc93683)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/0da8632b-44d7-4a72-be6b-7bf88ac32be6)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/4f6aaed5-68f2-42ce-a43d-0b62ea57123b)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/a83d9654-d504-42e6-bc23-bad062b91ad8)
+
+_**Here we conclude that most of users (more that 20000 out-off total 50000 users) do not used the 1st 24 hour premium free trial & infact they direcly jumped to the premium at the time of they 1st open the app**_
+
+### FEATURE ENGINEERING
+* drop( the columns='first_open','enrolled_date','Date_Delta_in_Hour'
+  ## MODEL BUILDING
+### LOGISTIC REGRESSION
+#### MODEL TRAINING
+##### MODEL EVALUATION & PREDICTION
+### DATA PREPROCESSING & FEATURE SCALING
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/025db4e1-7d20-4b94-80d0-697b4485c1fa)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/13521ae1-042a-4741-9c5d-5e81fb19a4e9)
+
+* Model Accuracy = sum of diagonal value of cm/sum of all values of cm(confusion matrix)
+
+* We also look for Precision to insure that model accuracy is inceased not because of some overfitting issues
+  
+* Precision Score = True Positive / (True Positive + False Positive), meaning that out-of all predicted positives what percentage are Actual positives
+  
+* Recall Score = True Positives / (True Positives + False Negatives, meaning that out-of all Actual Positives What Percentage are predicted to be positives
+  
+* We will also calculate f1-score as it creates a balance between Precision & Recall coz it is weighted average of Precision & Recall thereby it considers both False Positives & False
+  
+*  Negative Intuitively f1-score is not easy to understand as accuracy but it is much better metric in case of class imbalanced data as in our case
+  
+* F1-Score = Precision*Recall / (Precision+Recall)
+
+
+
+
+
+
