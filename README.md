@@ -89,6 +89,21 @@ _**Here we conclude that most of users (more that 20000 out-off total 50000 user
 #### 𝐌𝐎𝐃𝐄𝐋 𝐓𝐑𝐀𝐈𝐍𝐈𝐍𝐆
 #####  𝐌𝐎𝐃𝐄𝐋 𝐄𝐕𝐀𝐋𝐔𝐀𝐓𝐈𝐎𝐍 & 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍
 
+#### Classification Report:  
+                   precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79      5257
+           1       0.77      0.77      0.77      4743
+
+    accuracy                           0.78     10000
+    macro avg      0.78      0.78      0.78     10000
+    weighted avg   0.78      0.78      0.78     10000
+
+Model Accuracy : 0.7802
+Precision Score : 0.7664921465968586
+Recall Score :  0.7716635041113219
+F1-Score :  0.7690691321706241
+
 * Model Accuracy = sum of diagonal value of cm/sum of all values of cm(confusion matrix)
 
 * We also look for Precision to insure that model accuracy is inceased not because of some overfitting issues
