@@ -100,8 +100,11 @@ _**Here we conclude that most of users (more that 20000 out-off total 50000 user
     weighted avg   0.78      0.78      0.78     10000
 
 Model Accuracy : 0.7802
+
 Precision Score : 0.7664921465968586
+
 Recall Score :  0.7716635041113219
+
 F1-Score :  0.7690691321706241
 
 * Model Accuracy = sum of diagonal value of cm/sum of all values of cm(confusion matrix)
