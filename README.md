@@ -99,11 +99,28 @@ _**Here we conclude that most of users (more that 20000 out-off total 50000 user
   
 * We will also calculate f1-score as it creates a balance between Precision & Recall coz it is weighted average of Precision & Recall thereby it considers both False Positives & False
   
-*  Negative Intuitively f1-score is not easy to understand as accuracy but it is much better metric in case of class imbalanced data as in our case
+*  Negative Intuitively f1-score is not easy to understand as accuracy but it is much better metric in case of class imbalanced data as in our case.
   
 * F1-Score = Precision*Recall / (Precision+Recall)
 
 
+
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/dfb2a7a7-ae0e-4ed5-b021-bd03cb51b382)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/ab43764e-1a62-44f3-a345-6ddfa851961b)
+
+From both the plots we can conclude that both Actual & Predicted values follows same class distribution
+
+**FEATURE IMPORTANCE**
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/de3a7c2e-fb41-473e-9fdf-7859108f4095)
+
+![image](https://github.com/Tanwar-12/Directing-Customers-to-Subscription-Products-through-App-Behavior-Analysis./assets/110081008/4617d7bf-f011-4f53-b2a4-9090195d8f62)
+
+### 𝐂𝐎𝐍𝐂𝐋𝐔𝐒𝐈𝐎𝐍𝐒 & 𝐅𝐈𝐍𝐀𝐋 𝐑𝐄𝐒𝐔𝐋𝐓𝐒
+* Positively Affecting features to enrollment: Other_sceens, VerifyPhone, CMCount, VerifyMobile, VerifyDateOfBirth, Rewards, EditProfile, etc, without any doubt all above features are situated to moving towards the enrollment screens.
+  
+* Negatively Affecting features to enrollment: LoanCount, VerifyCountry, Alerts, age, numscreens, Login, ResendToken, etc, if we see all these features are irritating & no user want to do this.
 
 
 
